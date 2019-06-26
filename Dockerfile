@@ -2,7 +2,7 @@ FROM alpine:3.9
 MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
 
 # Define Mumble version
-ARG MUMBLE_VERSION=1.3.0-rc1
+ARG MUMBLE_VERSION=1.3.0-rc2
 
 # Create Mumble directories
 RUN mkdir -pv /opt/mumble /etc/mumble
